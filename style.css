@@ -1,75 +1,72 @@
+body{
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/44355e66-dbf8-4dd8-ba6b-8e9e32ec6abd/IN-en-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    display: block;
+}
 
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+#shadow{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100vh;
 
 }
-.container{
-    width: 35vw;
-    height: 70vh;
-    border:3px solid red;
-    margin:  10rem 5rem;
-    margin-top: 10px;
-
-    
-}
-.box-1{
-    width: 90%;
+#heading{
     height: 20%;
-    border:2px solid red;
-    margin-left:1rem;
-    margin-top:3px;
-   
-    
+    display: flex;
 }
-.box-2{
-    width: 90%;
-    height: 30%;
-    border:2px solid red;
-    margin-left:1rem;
-    margin-top:1rem;
-   
-    
-}
-.box-3{
-    width: 90%;
-    height: 25%;
-    border:2px solid red;
-    margin-left:1rem;
-    margin-top:1rem;
-   
-    
+#image{
+    width: 40%;
+     display: flex; 
+    justify-content: center;
+    padding: 30px;
+    font-size: 1000px;
 }
 
-#para{
-    margin: 1rem;
+#buttons {
+    padding: 30px;
+    width: 60%;
+    text-align: right;
 }
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 80%;
+}
+
+
 h1{
-    margin-top:10px;
-}
+    font-size: 55px;
+    margin:0px;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
     
-
-
-span{
-    padding: 10px;
-    border: 2px solid red;
 }
-.box3-1{
-    width:95%;
-    height: 30%;
-    border:2px solid red;
-    margin-left:3px;
-    margin-top:1rem;
-  
-
+p {
+    margin: 13px;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
-.box3-2{
-    width:95%;
-    height: 30%;
-    border:2px solid red;
-    margin-left:3px;
-    margin-top:0;
-    
-
+#p1 {
+    font-size: 28px;
+}
+#p2 {
+    font-size: 23px;
+}
+#Signin {
+    background: red;
+    padding: 8px 14px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: bold;
 }
